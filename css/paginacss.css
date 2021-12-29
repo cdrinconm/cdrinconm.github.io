@@ -1,0 +1,27 @@
+:root{
+    --dark: #1a1a1a;
+    --ligth: #ffffff;
+    --gray: #d3d3d3;
+}
+
+section{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tituloloading{
+    text-align: center;
+}
+
+.loading1{
+    background-color: var(--dark);
+}
+
+.loading2{
+    background-color: var(--ligth);
+}
+
+.linkcode{
+    font-size: 20px;
+}
