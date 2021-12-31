@@ -24,49 +24,55 @@ class CRHeader extends HTMLElement{
         let htmltags = ``;
         htmltags += `<nav class="navbar navbar-light bg-light fixed-top">
                         <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Bienvenido a CDRM</a>
-                        <a href="https://www.contadorvisitasgratis.com"><img src="https://counter7.stat.ovh/private/contadorvisitasgratis.php?c=etphut3c32rpdj87hljdbmtgp6yatclx"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                            <div class="offcanvas-header">
-                                <div class="jumbotron menu">
-                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5></br>
-                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <a class="navbar-brand" href="#">Bienvenido a CDRINCONM</a>
+                            <a href="https://www.contadorvisitasgratis.com"><img src="https://counter7.stat.ovh/private/contadorvisitasgratis.php?c=etphut3c32rpdj87hljdbmtgp6yatclx"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <div class="jumbotron menu">
+                                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5></br>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="list-group">
+                                        <a href="./index.html" class="list-group-item list-group-item-action" aria-current="true">
+                                            <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">Inicio</h5>
+                                            <small class="text-muted">3 days ago</small>
+                                            </div>
+                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                            <small class="text-muted">And some small print.</small>
+                                        </a>
+                                        <a href="./css.html" class="list-group-item list-group-item-action">
+                                            <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">Diseños en CSS</h5>
+                                            <small class="text-muted">3 days ago</small>
+                                            </div>
+                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                            <small class="text-muted">And some muted small print.</small>
+                                        </a>
+                                        <a href="https://cdrinconm.github.io/vc/" target="_blank" class="list-group-item list-group-item-action">
+                                            <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">Computacion Visual</h5>
+                                            <small class="text-muted">3 days ago</small>
+                                            </div>
+                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                            <small class="text-muted">And some muted small print.</small>
+                                        </a>
+                                        <a href="./cv.html" class="list-group-item list-group-item-action">
+                                            <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">Mi Hoja de Vida</h5>
+                                            <small class="text-muted">3 days ago</small>
+                                            </div>
+                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                            <small class="text-muted">And some muted small print.</small>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="./css.html">Diseños en CSS</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="https://cdrinconm.github.io/vc/" target="_blank">Computacion Visual</a>
-                                </li>
-                                <!--
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                        <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>-->
-                            <li class="nav-item">
-                                <a class="nav-link" href="./cv.html">Mi Hoja de Vida</a>
-                            </li>
-                            </div>
-                        </div>
                         </div>
                     </nav>`;
         return htmltags;
