@@ -30,7 +30,7 @@ class CRHeader extends HTMLElement{
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                                <div class="offcanvas-header">
+                                <div class="offcanvas-footer">
                                     <div class="jumbotron menu">
                                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5></br>
                                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -41,35 +41,44 @@ class CRHeader extends HTMLElement{
                                         <a href="./index.html" class="list-group-item list-group-item-action" aria-current="true">
                                             <div class="d-flex w-100 justify-content-between">
                                             <h5 class="mb-1">Inicio</h5>
-                                            <small class="text-muted">3 days ago</small>
+                                            <small class="text-muted">Home Page</small>
                                             </div>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                                            <small class="text-muted">And some small print.</small>
+                                            <p class="mb-1">Pagina inicial en donde esta la descripcion de todas las secciones.</p>
+                                            <small class="text-muted">Editado el 3 Enero 2021.</small>
                                         </a>
                                         <a href="./css.html" class="list-group-item list-group-item-action">
                                             <div class="d-flex w-100 justify-content-between">
                                             <h5 class="mb-1">Diseños en CSS</h5>
-                                            <small class="text-muted">3 days ago</small>
+                                            <small class="text-muted">CSS Designs</small>
                                             </div>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                                            <small class="text-muted">And some muted small print.</small>
+                                            <p class="mb-1">Algunos diseños hechos en CSS.</p>
+                                            <small class="text-muted">Editado el 3 Enero 2021.</small>
                                         </a>
                                         <a href="https://cdrinconm.github.io/vc/" target="_blank" class="list-group-item list-group-item-action">
                                             <div class="d-flex w-100 justify-content-between">
                                             <h5 class="mb-1">Computacion Visual</h5>
-                                            <small class="text-muted">3 days ago</small>
+                                            <small class="text-muted">Visual Computation</small>
                                             </div>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                                            <small class="text-muted">And some muted small print.</small>
+                                            <p class="mb-1">Programas hechos en p5.js.</p>
+                                            <small class="text-muted">Editado el 3 Enero 2021.</small>
                                         </a>
                                         <a href="./cv.html" class="list-group-item list-group-item-action">
                                             <div class="d-flex w-100 justify-content-between">
                                             <h5 class="mb-1">Mi Hoja de Vida</h5>
-                                            <small class="text-muted">3 days ago</small>
+                                            <small class="text-muted">Curriculum Vitae</small>
                                             </div>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                                            <small class="text-muted">And some muted small print.</small>
+                                            <p class="mb-1">Resumen de mi carrera profesional.</p>
+                                            <small class="text-muted">Editado el 3 Enero 2021.</small>
                                         </a>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-footer">
+                                    <div class="jumbotron footer">
+                                        <div>
+                                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Patreon</h5>
+                                            <small class="text-muted">¿Quieres apoyarme?</small>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-warning" h><a href="https://www.patreon.com/cdrinconm" target="_blank" class="text-dark">Link</a></button>
                                     </div>
                                 </div>
                             </div>
