@@ -76,7 +76,8 @@ class CRHeader extends HTMLElement{
                                     <div class="jumbotron footer">
                                         <div>
                                             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Patreon</h5>
-                                            <small class="text-muted">¿Quieres apoyarme?</small>
+                                            <small class="text-muted">¿Quieres apoyarme?</small><br>
+                                            <small class="text-muted" style="font-size:10px;">...o dentro de las app tambien puedes hacerlo!</small>
                                         </div>
                                         <button type="button" class="btn btn-outline-warning" h><a href="https://www.patreon.com/cdrinconm" target="_blank" class="text-dark">Link</a></button>
                                     </div>

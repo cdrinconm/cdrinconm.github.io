@@ -2,6 +2,7 @@
     --dark: #1a1a1a;
     --ligth: #ffffff;
     --gray: #d3d3d3;
+    --blue: blue;
 }
 
 section{
@@ -14,17 +15,14 @@ section{
     text-align: center;
 }
 
-.anuncio{
-    height: 200px;
-    width: 100%;
-}
-
 .loading1{
     background-color: var(--dark);
 }
 
 .loading2{
     background-color: var(--ligth);
+    border: 1px solid var(--blue);
+    border-radius: 5px;
 }
 
 .linkcode{
