@@ -27,3 +27,8 @@ body{
     height: 400px;
     width: 100%;
 }
+
+a.disabled {
+    color: #e3e2e2 !important;
+    pointer-events: none;
+  }
