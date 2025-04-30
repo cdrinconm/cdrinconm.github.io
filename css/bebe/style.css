@@ -1,0 +1,86 @@
+@font-face {
+    font-family: ShinyTitle;
+    src: url(../../fonts/Shiny\ Kids.otf);
+}
+
+@font-face {
+    font-family: ShinyText1;
+    src: url(../../fonts/SourGummy-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: ShinyText2;
+    src: url(../../fonts/SourGummy-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    background-image: url("../../images/bebe/Fondo.jpg");
+    background-color: #cccccc;
+    font: optional;
+}
+
+.shadowP {
+    background-color: white;
+    border-radius: 30px !important;
+    box-shadow: 0px 0px 10px 0px gray !important;
+}
+
+.shadowO {
+    background-color: orange;
+    border-radius: 15px !important;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+    bottom: 90%;
+}
+
+.shadowB {
+    background-color: aqua;
+    border-radius: 15px !important;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+    bottom: 90%;
+}
+
+.row {
+    padding: 20px;
+}
+
+h1 {
+    font-family: ShinyTitle;
+    line-height: 2 !important;
+}
+
+p{
+    font-family: ShinyText1;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.white {
+    color: white;
+}
+
+img {
+    height: 200px;
+    background-size: cover;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+.p-20 {
+    padding: 20px;
+}
