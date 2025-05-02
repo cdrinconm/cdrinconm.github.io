@@ -15,8 +15,13 @@
 
 body {
     background-image: url("../../images/bebe/Fondo.jpg");
-    background-color: #cccccc;
-    font: optional;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .shadowP {
@@ -36,13 +41,51 @@ body {
 }
 
 .shadowB {
-    background-color: aqua;
+    background-color: #48a4c5;
     border-radius: 15px !important;
     width: 70%;
     position: absolute;
     z-index: 1;
     right: 10%;
     bottom: 90%;
+}
+
+.shadowBText {
+    background-color: #48a4c5;
+    border-radius: 30px !important;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 0px gray !important;
+}
+
+.shadowBL {
+    background-color: #75e1ff;
+    border-radius: 15px !important;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+    bottom: 90%;
+}
+
+.shadowBL2 {
+    background-color: #75e1ff;
+    margin: 0px !important;
+    padding: 5px !important;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.shadowR {
+    background-color: #dd5b5b;
+    border-radius: 15px !important;
+    margin: 0px !important;
+    padding: 0px 20px !important;
+    margin: 0px;
+    color: white;
+    font-size: 30px;
 }
 
 .row {
@@ -56,16 +99,36 @@ h1 {
 
 p{
     font-family: ShinyText1;
-    font-size: 26px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.p{
+    font-family: ShinyText1;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.pOrange{
+    font-size: 30px;
+    font-weight: 500;
+    color: orange;
 }
 
 .red {
-    color: red;
+    color: #dd5b5b;
+}
+
+.orange {
+    color: orange;
 }
 
 .blue {
-    color: blue;
+    color: #48a4c5;
+}
+
+.blueL {
+    color: #75e1ff;
 }
 
 .white {
@@ -83,4 +146,32 @@ img {
 
 .p-20 {
     padding: 20px;
+}
+
+.buttomO {
+    background-color: orange;
+    border-radius: 15px !important;
+    color: white;
+    border: 0px;
+    box-shadow: 0px 0px 5px 1px gray !important;
+    padding: 5px 40px;
+    margin: 0px;
+}
+
+.buttomG {
+    background-color: gray;
+    border-radius: 15px !important;
+    color: white;
+    border: 0px;
+    box-shadow: 0px 0px 5px 1px gray !important;
+    padding: 5px 40px;
+    margin: 0px;
+}
+
+a {
+    color: black;
+}
+
+.bold {
+    font-weight: 500;
 }
