@@ -15,12 +15,8 @@
 
 body {
     background-image: url("../../images/bebe/Fondo.jpg");
-    z-index: -1;
-    top: 0;
-    left: 0;
     width: 100%;
-    background-size: cover;
-    background-position: center center;
+    background-size: initial;
     background-attachment: fixed;
 }
 
@@ -36,8 +32,8 @@ body {
     width: 70%;
     position: absolute;
     z-index: 1;
-    right: 10%;
-    bottom: 90%;
+    right: 15%;
+    bottom: 95%;
 }
 
 .shadowB {
@@ -85,7 +81,7 @@ body {
     padding: 0px 20px !important;
     margin: 0px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .row {
@@ -99,18 +95,18 @@ h1 {
 
 p{
     font-family: ShinyText1;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
 }
 
 .p{
     font-family: ShinyText1;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
 }
 
 .pOrange{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     color: orange;
 }
