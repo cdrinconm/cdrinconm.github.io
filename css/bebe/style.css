@@ -13,6 +13,11 @@
     src: url(../../fonts/SourGummy-VariableFont_wdth\,wght.ttf);
 }
 
+@font-face {
+    font-family: ShinyTextExtraLight;
+    src: url(../../fonts/static/SourGummy-ExtraLight.ttf);
+}
+
 body {
     background-image: url("../../images/bebe/Fondo.jpg");
     width: 100%;
@@ -93,19 +98,19 @@ h1 {
     line-height: 2 !important;
 }
 
-p{
-    font-family: ShinyText1;
+p {
+    font-family: ShinyTextExtraLight;
     font-size: 20px;
     font-weight: 200;
 }
 
-.p{
-    font-family: ShinyText1;
+.p {
+    font-family: ShinyTextExtraLight;
     font-size: 20px;
     font-weight: 200;
 }
 
-.pOrange{
+.pOrange {
     font-size: 20px;
     font-weight: 500;
     color: orange;
@@ -129,6 +134,10 @@ p{
 
 .white {
     color: white;
+}
+
+.green {
+    color: #5eb962;
 }
 
 img {
@@ -170,4 +179,12 @@ a {
 
 .bold {
     font-weight: 500;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2375e1ff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2375e1ff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
